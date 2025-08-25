@@ -12,7 +12,7 @@ public class IncorrectLogin
 	public static void main(String[] args) throws InterruptedException 
 	{		
 //		1. Launch browser
-		WebDriver driver=BrowserFactory.LaunchBrowser("chrome");
+		WebDriver driver=BrowserFactory.LaunchBrowser("edge");
 		driver.manage().window().maximize();
 		driver.getTitle();	
 		Thread.sleep(1000);
